@@ -379,6 +379,27 @@ module.exports = function (grunt) {
         push: false,
         files: ['package.json', 'bower.json', 'app/data/version.json']
       }
+    },
+    manifest: {
+      dist: {
+        options: {
+          basePath: 'dist',
+          cache: ['data/*', ''],
+          fallback: ['/ /offline.html'],
+          exclude: ['js/jquery.min.js'],
+          preferOnline: true,
+          verbose: true,
+          timestamp: true,
+          hash: true,
+          master: ['index.html']
+        },
+        src: [
+          'some_files/*.html',
+            'js/*.min.js',
+            'css/*.css'
+        ],
+        dest: 'manifest.appcache'
+      }
     }
   });
 
