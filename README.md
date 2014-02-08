@@ -8,7 +8,7 @@ Requirements:
 
 1. Clone the repo
 2. Run `npm install`
-3. Run `bower install`
+3. Remove hash in bower.json at root, run `bower install`
 4. Copy the images in dist/images/cards to app/images/cards
 5. Run `grunt server`
 
