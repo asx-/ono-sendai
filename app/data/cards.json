@@ -1048,7 +1048,8 @@
       "side": "Runner",
       "text": "Gain 9[Credits].",
       "title": "Sure Gamble",
-      "type": "Event"
+      "type": "Event",
+      "tag": ["Economy", "Burst Economy"]
     },
     {
       "breakcost": {
@@ -4724,7 +4725,8 @@
       "subtype": "Transaction",
       "text": "Gain 3[Credits].",
       "title": "Beanstalk Royalties",
-      "type": "Operation"
+      "type": "Operation",
+      "tag": ["Economy", "Burst Economy"]
     },
     {
       "cgdb_url": "http://www.cardgamedb.com/index.php/netrunner/android-netrunner-card-spoilers/_/scorched-earth-core",
@@ -4975,7 +4977,8 @@
       "subtype": "Transaction",
       "text": "Gain 9[Credits].",
       "title": "Hedge Fund",
-      "type": "Operation"
+      "type": "Operation",
+      "tag": ["Economy", "Burst Economy"]
     },
     {
       "cgdb_url": "http://www.cardgamedb.com/index.php/netrunner/android-netrunner-card-spoilers/_/enigma-core",
