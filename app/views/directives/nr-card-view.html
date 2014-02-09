@@ -104,6 +104,15 @@
               </a>
             </div>
           </div>
+          <!-- tags, figure out how to make link hit all cards tagged with same name -->
+          <div ng-if="card.tag != null" class="info-row">
+            <span class="info-label">Tags:</span>
+              <!-- loop through all tags in array -->
+              <a ng-repeat="x in card.tag" ng-href="{{ card | cardUrl:'x' }}">
+                {{ x }},
+              </a>
+          </div>
+          <!-- /end tag insert -->
           <div ng-if="isShortCard(card)" class="info-row">
             <span class="info-label">Quantity:</span>
             <div class="info-value">
